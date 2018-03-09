@@ -34,7 +34,8 @@ int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, PSTR szCmdLine,
   int cxScreen;
   int cyScreen;
 
-  // Function for getting different sizes of objects.
+  // Function retrieves the specified system metric or configuration setting (in
+  // pixels).
   cxScreen = GetSystemMetrics(SM_CXSCREEN);
   cyScreen = GetSystemMetrics(SM_CYSCREEN);
 
