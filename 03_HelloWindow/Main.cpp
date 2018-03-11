@@ -121,6 +121,7 @@ WndProc(HWND hwnd,        // The handle to the window receiving the message
       // of the client area.
       DrawText(hdc, TEXT("Hello, World!"), -1, &rect,
                DT_SINGLELINE | DT_CENTER | DT_VCENTER);
+
       // Ends window painting.
       EndPaint(hwnd, &ps);
       return 0;
